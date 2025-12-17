@@ -1,0 +1,72 @@
+/* Skills.css */
+
+.skills-container {
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #f0f4ff, #e0f7fa);
+  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  margin: auto;
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #1f3b73;
+  font-weight: bold;
+}
+
+.skills-intro {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #444;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.7;
+}
+
+.skill-section {
+  margin-bottom: 40px;
+  padding: 25px;
+  background-color: #ffffff;
+  border-left: 6px solid #3b82f6;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s ease;
+}
+
+.skill-section:hover {
+  transform: scale(1.02);
+}
+
+.skill-section h2 {
+  font-size: 1.5rem;
+  color: #0f172a;
+  margin-bottom: 15px;
+}
+
+.skill-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skill-section li {
+  font-size: 1rem;
+  padding: 8px 0;
+  color: #444;
+  position: relative;
+  padding-left: 24px;
+}
+
+.skill-section li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #3b82f6;
+  font-weight: bold;
+}

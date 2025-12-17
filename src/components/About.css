@@ -1,0 +1,257 @@
+/* About.css */
+
+/* General Styling */
+.about-container {
+  margin: 0 auto;
+  padding: 60px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f4ff, #e6f7ff);
+  color: #1f2937;
+  line-height: 1.6;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-header h1 {
+  font-size: clamp(2rem, 5vw, 2.8rem); /* Responsive font size */
+  font-weight: 700;
+  color: #1f3b73;
+  margin-bottom: 1rem;
+}
+
+.about-header p {
+  font-size: clamp(1rem, 2.5vw, 1.2rem); /* Responsive font size */
+  color: #475569;
+  max-width: min(900px, 90%);
+  margin: 0 auto;
+  padding: 15px;
+  border-left: 5px solid #3b82f6;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+/* Background Section */
+.background h2 {
+  font-size: clamp(1.8rem, 4vw, 2.2rem);
+  font-weight: 600;
+  color: #1e40af;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #3b82f6;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.background p {
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
+  color: #475569;
+  margin: 20px 0;
+}
+
+/* Education Section */
+.education-header {
+  font-size: clamp(1.5rem, 3.5vw, 1.8rem);
+  font-weight: 600;
+  color: #1e40af;
+  margin-top: 40px;
+  border-bottom: 2px solid #3b82f6;
+  padding-bottom: 10px;
+}
+
+.education-list {
+  list-style: none;
+  padding: 0;
+}
+
+.education-list1 li {
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  color: #475569;
+  margin-bottom: 10px;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.education-list1 li:before {
+  content: "•";
+  color: #3b82f6;
+  position: absolute;
+  left: 0;
+}
+
+/* Skills and Experience Section */
+.skills-and-experience h2 {
+  font-size: clamp(1.8rem, 4vw, 2.2rem);
+  font-weight: 600;
+  color: #1e40af;
+  margin-top: 40px;
+  border-bottom: 2px solid #3b82f6;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.skills-and-experience h3 {
+  font-size: clamp(1.4rem, 3vw, 1.6rem);
+  font-weight: 600;
+  color: #1e40af;
+  margin-top: 30px;
+}
+
+.skills-and-experience ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-and-experience ul li {
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
+  color: #475569;
+  margin-bottom: 10px;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.skills-and-experience ul li:before {
+  content: "•";
+  color: #3b82f6;
+  position: absolute;
+  left: 0;
+}
+
+.skills-and-experience p {
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
+  color: #475569;
+  margin-top: 15px;
+}
+
+/* Passion Projects Section */
+.passion-projects h2 {
+  font-size: clamp(1.8rem, 4vw, 2.2rem);
+  font-weight: 600;
+  color: #1e40af;
+  margin-top: 40px;
+  border-bottom: 2px solid #3b82f6;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.passion-projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+.passion-projects li {
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
+  color: #475569;
+  margin-bottom: 20px;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.passion-projects li:before {
+  content: "•";
+  color: #3b82f6;
+  position: absolute;
+  left: 0;
+}
+
+.passion-projects li strong {
+  color: #3b82f6;
+}
+
+/* Future Goals Section */
+.future-goals h2 {
+  font-size: clamp(1.8rem, 4vw, 2.2rem);
+  font-weight: 600;
+  color: #1e40af;
+  margin-top: 40px;
+  border-bottom: 2px solid #3b82f6;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.future-goals p {
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
+  color: #475569;
+  margin-top: 15px;
+}
+
+/* Hobbies and Interests Section */
+.hobbies-and-interests h2 {
+  font-size: clamp(1.8rem, 4vw, 2.2rem);
+  font-weight: 600;
+  color: #1e40af;
+  margin-top: 40px;
+  border-bottom: 2px solid #3b82f6;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.hobbies-and-interests p {
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
+  color: #475569;
+  margin-top: 15px;
+}
+
+/* Footer Styling */
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  background-color: #f1f5f9;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  color: #1f2937;
+}
+
+/* Enhanced Responsive Design */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 40px 15px;
+  }
+
+  .about-header {
+    margin-bottom: 30px;
+  }
+
+  .background p,
+  .skills-and-experience p,
+  .future-goals p,
+  .hobbies-and-interests p {
+    margin: 15px 0;
+  }
+
+  .education-header,
+  .skills-and-experience h2,
+  .passion-projects h2,
+  .future-goals h2,
+  .hobbies-and-interests h2 {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    padding: 30px 10px;
+  }
+
+  .about-header p {
+    padding: 10px;
+    border-left-width: 3px;
+  }
+
+  .background h2,
+  .education-header,
+  .skills-and-experience h2,
+  .passion-projects h2,
+  .future-goals h2,
+  .hobbies-and-interests h2 {
+    border-bottom-width: 1px;
+  }
+
+  .footer {
+    margin-top: 30px;
+    padding: 15px 0;
+  }
+}

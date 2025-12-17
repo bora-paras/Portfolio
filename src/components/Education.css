@@ -1,0 +1,83 @@
+/* Education.css */
+
+.education-container {
+  margin: 0 auto;
+  padding: 60px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f4ff, #e6f7ff);
+  color: #1f2937;
+}
+
+.education-header {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #1f3b73;
+  border-bottom: 4px solid #3b82f6;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.education-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.education-list::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: #3b82f6;
+}
+
+.education-item {
+  position: relative;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  background-color: #ffffff;
+  padding: 20px 25px;
+  border-left: 6px solid #60a5fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.education-item strong {
+  font-size: 1.4rem;
+  color: #1e40af;
+}
+
+.education-details {
+  font-size: 1rem;
+  color: #475569;
+  display: block;
+  margin-top: 6px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .education-header {
+    font-size: 2.2rem;
+  }
+
+  .education-item {
+    margin-left: 0;
+    border-left: none;
+    border-top: 6px solid #60a5fa;
+  }
+
+  .education-list::before {
+    display: none;
+  }
+}

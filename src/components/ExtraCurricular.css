@@ -1,0 +1,61 @@
+.extra-curricular {
+  background: linear-gradient(135deg, #f0f4ff, #e6f7ff);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  margin: 40px 0;
+}
+
+.extra-curricular h3 {
+  font-size: 2.5rem;
+  color: #1f3b73;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.section {
+  background: #ffffff;
+  border-left: 6px solid #1f75fe;
+  margin-bottom: 25px;
+  padding: 25px 30px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(31, 117, 254, 0.2);
+}
+
+.section h4 {
+  font-size: 1.6rem;
+  color: #1a2954;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section ul li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 12px;
+  font-size: 1rem;
+  color: #4a4a4a;
+  line-height: 1.7;
+}
+
+.section ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #1f75fe;
+  font-weight: bold;
+}
